@@ -41,16 +41,15 @@ This project is an e-commerce application designed to manage items and process o
 - Rails 7.1.3
 - PostgreSQL
 
-### Configuration
-
-- `config/database.yml` configure your database settings.
-
-### Installation
+### Installation and Configuration
 
 1. Clone the repository.
 2. Install dependencies with `bundle install`.
-3. Set up the database with `rails db:setup`.
-4. Start the server with `rails server`.
+3. Configure your database settings copying the .env.example file and creating the .env file with the correct values.
+4. Set up the database with `rails db:setup`.
+5. Create initial data with `rails db:seed`
+6. Re build tailwind with `rails tailwindcss:build`
+5. Start the server with `rails server`.
 
 ## Usage
 

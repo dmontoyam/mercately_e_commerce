@@ -8,7 +8,6 @@ class V1::OrdersController < ApplicationController
   end
 
   def create
-    # raise params.inspect
     status, result = create_order
 
     if status == :created
